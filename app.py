@@ -14,5 +14,9 @@ def hello():
 def ashish():
     return 'so i tried docker and its too good yessss!!!!!!!!!!!!!!!11'
 
+@app.route('/ashish')
+def ashish():
+    return 'another api added'
+
 if __name__ == "__main__":
     app.run()
